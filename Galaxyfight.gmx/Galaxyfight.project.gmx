@@ -10,6 +10,7 @@
     <sprite>sprites\spr_centerstar</sprite>
     <sprite>sprites\spr_torpedo</sprite>
     <sprite>sprites\spr_needle</sprite>
+    <sprite>sprites\spr_start</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,8 +19,10 @@
     <object>objects\obj_centerstar</object>
     <object>objects\obj_torpedo</object>
     <object>objects\obj_needle</object>
+    <object>objects\obj_start</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_space</room>
   </rooms>
   <help>
