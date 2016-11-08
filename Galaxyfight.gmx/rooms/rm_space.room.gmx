@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_wedge" x="320" y="256" name="inst_9C982E00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_centerstar" x="512" y="384" name="inst_1014843D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_needle" x="704" y="512" name="inst_C24DEA6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
