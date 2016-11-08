@@ -28,7 +28,7 @@
             <string>dist = distance_to_object(obj_centerstar);
 accel = 1/dist;
 stardir = point_direction(x, y, obj_centerstar.x, obj_centerstar.y);
-motion_add(stardir, 1*accel);
+motion_add(stardir, 2*accel);
 
 </string>
           </argument>
@@ -52,7 +52,10 @@ motion_add(stardir, 1*accel);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>if(other.parent == "wedge"){
+    instance_destroy();
+}
+</string>
           </argument>
         </arguments>
       </action>
