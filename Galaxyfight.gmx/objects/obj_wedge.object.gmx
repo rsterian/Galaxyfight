@@ -195,7 +195,7 @@ if (speed &gt; 5){
             <kind>1</kind>
             <string>if(torp_count &gt; 0){
     torpedo = instance_create(x, y, obj_torpedo);
-    torpedo.parent = "wedge"; //1 for wedge, 0 for needle
+    torpedo.parent = "wedge"; 
     torpedo.direction = image_angle;
     torpedo.speed = 8;
     torp_count -= 1;
